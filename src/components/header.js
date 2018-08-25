@@ -26,6 +26,27 @@ const HeaderContainer = styled.div`
   padding: 1.45rem 1.0875rem;
   position: relative;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+`
+const MainNav = styled.nav`
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-left: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    a {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        border-bottom: 3px solid #524763;
+      }
+    }
+    }
+    
+  }
 `
 
 export default class Header extends Component {
@@ -65,6 +86,7 @@ export default class Header extends Component {
               right: 0,
               width: '100%',
               height: '100%',
+              opacity: 0.3
             }}
             sizes={data.background.sizes} 
           />
@@ -75,7 +97,7 @@ export default class Header extends Component {
               </Link>
             </h1>
             
-            <nav>
+            <MainNav>
               <ul>
                 <li>
                   <Link to="/">Home</Link>
@@ -93,7 +115,7 @@ export default class Header extends Component {
                   <Link to="/about">page-5</Link>
                 </li>
               </ul>
-            </nav>
+            </MainNav>
           </HeaderContainer>
         </HeaderWrapper>
       </div>
