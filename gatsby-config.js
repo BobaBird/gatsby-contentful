@@ -3,6 +3,7 @@ module.exports = {
     title: 'Gatsby Default Starter',
     desc: 'A new blog.',
   },
+  pathPrefix: '/leveluptutgatsby',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
