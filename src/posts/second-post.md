@@ -1,6 +1,6 @@
 ---
 title: "Second Blog Post"
-date: "2018-08-25
+date: "2018-08-25"
 ---
 
 Lorem ipsum dolor amet vexillologist cornhole tbh semiotics meh, post-ironic YOLO bicycle rights photo booth chillwave cold-pressed. Brunch poutine live-edge, air plant single-origin coffee flexitarian bitters. Paleo iPhone disrupt tofu occupy thundercats helvetica. 
