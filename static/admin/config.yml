@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: BobaBird/bobabird.github.io
 
 media_folder: static/assets
 
