@@ -1,8 +1,8 @@
 ---
 title: First Post From Netlify
 date: '2018-08-27'
-image: /static/assets/conure-ex.jpg
+image: /assets/conure-ex.jpg
 ---
-Published via Netlifly-cms!
+![ConureBirb](/assets/conure-ex.jpg)
 
-![test-image](/assets/conure-ex.jpg)
+Published via Netlifly-cms!
