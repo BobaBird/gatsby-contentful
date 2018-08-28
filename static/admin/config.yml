@@ -3,6 +3,7 @@ backend:
   repo: BobaBird/bobabird.github.io
 
 media_folder: static/assets
+public_folder: /assets
 
 collections:
   - name: post

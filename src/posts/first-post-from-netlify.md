@@ -5,4 +5,4 @@ image: /static/assets/conure-ex.jpg
 ---
 Published via Netlifly-cms!
 
-![test-image](/static/assets/conure-ex.jpg)
+![test-image](/assets/conure-ex.jpg)
