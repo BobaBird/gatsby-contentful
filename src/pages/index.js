@@ -5,7 +5,7 @@ import PostListing from '../components/posts/PostListing'
 const IndexPage = ({data}) => (
   <div>
     <h2>Post</h2>
-    {data.allMarkdownRemark.edges.map(({node}) => (
+    {data.allContentfulBlogPost.edges.map(({node}) => (
        <PostListing key={node.id} post={node} /> 
     ))}
   </div>
@@ -21,21 +21,20 @@ query SiteMeta {
       desc
     }
   }
-  allMarkdownRemark {
+  allContentfulBlogPost {
     edges {
       node {
-        id
-        frontmatter {
-          title
-          date(formatString: "MMM DD YYYY")
+        title
+        body {
+          childMarkdownRemark {
+            excerpt
+          }
         }
-        fields {
-          slug
-        }
-        html
-        excerpt
+        createdAt( formatString: "MMMM DD, YYYY" )
+        slug
       }
     }
   }
 }
+
 `
